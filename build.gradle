@@ -22,14 +22,14 @@ targetCompatibility = 1.8
 
 repositories {
     mavenCentral()
-    maven { url "http://jcenter.bintray.com" }
+    maven { url "https://jcenter.bintray.com" }
     maven { url "https://dl.bdew.net/agorepo/" }
     maven { url "http://repo.maven.apache.org/maven2" }
     maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-    compile 'net.dv8tion:JDA:3.3.1_289'
+    compile 'net.dv8tion:JDA:4.2.0_168'
     compile 'org.gotti.wurmunlimited:server-modlauncher:0.40'
     compile 'com.github.Sindusk:sindusklibrary:v2.1'
 }
